@@ -2,6 +2,8 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
+import ToolCards from "@/components/ToolCards";
+import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -16,6 +18,8 @@ const Index = () => {
           alt="Futuristic AI Scene"
           className="w-full max-w-6xl mx-auto my-20 rounded-2xl shadow-2xl"
         />
+        <ToolCards />
+        <FAQ />
       </main>
       <Footer />
     </div>
