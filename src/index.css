@@ -30,7 +30,7 @@
 
 @layer base {
   * {
-    @apply border-border/10 selection:bg-primary/20 selection:text-primary;
+    @apply border-border selection:bg-primary/20 selection:text-primary;
   }
 
   body {
