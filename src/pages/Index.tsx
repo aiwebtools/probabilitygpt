@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import ToolCards from "@/components/ToolCards";
 import FAQ from "@/components/FAQ";
+import Disclaimer from "@/components/Disclaimer";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -20,6 +21,7 @@ const Index = () => {
         />
         <ToolCards />
         <FAQ />
+        <Disclaimer />
       </main>
       <Footer />
     </div>
