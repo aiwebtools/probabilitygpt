@@ -6,10 +6,12 @@ import ToolCards from "@/components/ToolCards";
 import FAQ from "@/components/FAQ";
 import Disclaimer from "@/components/Disclaimer";
 import Footer from "@/components/Footer";
+import WelcomeDisclaimer from "@/components/WelcomeDisclaimer";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background text-white">
+      <WelcomeDisclaimer />
       <Header />
       <main>
         <Hero />
